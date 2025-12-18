@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - EventQueue</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar">
+        <a href="index.html" class="logo">EventQueue</a>
+        <ul class="nav-links">
+            <li><a href="findevents2.html">Find Events</a></li>
+            <li><a href="createevents.html">Create Events</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="login.html" class="btn-login">Log In</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="auth-container">
+    <div class="auth-box">
+        <h1>Create Account</h1>
+        <form id="signupForm">
+            <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" required placeholder="Enter your full name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" required placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" required placeholder="Create a password">
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" required placeholder="Repeat your password">
+            </div>
+            
+            <button type="submit" class="submit-btn">Sign Up</button>
+
+            <div class="options">
+                <p>Already have an account? <a href="login.html">Log In</a></p>
+            </div>
+        </form>
+    </div>
+</main>
+
+<footer class="footer">
+    <p>&copy; 2025 EventQueue. All rights reserved.</p>
+</footer>
+
+<script src="signup.js"></script>
+</body>
+</html>

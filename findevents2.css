@@ -1,0 +1,206 @@
+/* Basic Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f7f7;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background-color: black;
+    border-bottom: 1px solid #e1e4e8;
+    padding: 1rem 2rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.nav-links a {
+    color: #eaeaea;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: darkgoldenrod;
+}
+
+.btn-login {
+    background-color: darkgoldenrod;
+    color: #fff !important;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f7f7;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background-color: black;
+    border-bottom: 1px solid #e1e4e8;
+    padding: 1rem 2rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.nav-links a {
+    color: #eaeaea;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    color: darkgoldenrod;
+}
+
+.btn-login {
+    background-color: darkgoldenrod;
+    color: #fff !important;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+
+.page-title {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 2rem;
+}
+
+/* Filter Box */
+.filters-box {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.apply-btn {
+    width: 100%;
+    background: darkgoldenrod;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/* Events Grid */
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 1.5rem;
+}
+
+.event-card {
+    background: black;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 1rem;
+}
+
+.event-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-card h3 {
+    color: darkgoldenrod;
+    margin: 10px;
+}
+
+.event-card p {
+    color: #ddd;
+    margin: 5px 10px;
+}
+
+.book-btn {
+    display: block;
+    width: 140px;
+    margin: 10px auto;
+    padding: 8px;
+    text-align: center;
+    border-radius: 4px;
+    background: darkgoldenrod;
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer */
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 1.2rem;
+    margin-top: 3rem;
+}
+
+#monthFilter {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}

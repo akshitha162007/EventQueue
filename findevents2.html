@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Events - EventQueue</title>
+    <link rel="stylesheet" href="findevents2.css">
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar">
+        <a href="index.html" class="logo">EventQueue</a>
+        <ul class="nav-links">
+            <li><a href="findevents2.html">Find Events</a></li>
+            <li><a href="createevents.html">Create Events</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="login.html" class="btn-login">Log In</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main-content">
+
+    <h1 class="page-title">Find Events</h1>
+
+    <div class="layout">
+
+        <!-- FILTER BOX -->
+        <aside class="filters-box">
+            <h2>Filters</h2>
+
+            <h3>Date</h3>
+            <label><input type="radio" name="date-filter" value="all" checked> All Dates</label><br>
+            <label><input type="radio" name="date-filter" value="today"> Today</label><br>
+            <label><input type="radio" name="date-filter" value="weekend"> This Weekend</label><br>
+            <label><input type="radio" name="date-filter" value="nextweek"> Next Week</label><br>
+            <br>
+            <hr>
+            <br>
+            <h3>Month</h3>
+            <select id="monthFilter">
+    <option value="all">All Months</option>
+    <option value="01">January</option>
+    <option value="02">February</option>
+    <option value="03">March</option>
+    <option value="04">April</option>
+    <option value="05">May</option>
+    <option value="06">June</option>
+    <option value="07">July</option>
+    <option value="08">August</option>
+    <option value="09">September</option>
+    <option value="10">October</option>
+    <option value="11">November</option>
+    <option value="12">December</option>
+</select>
+    <hr>
+    <br>
+            <h3>Category</h3>
+            <label><input type="checkbox" class="cat" value="Art"> Art & Culture</label><br>
+            <label><input type="checkbox" class="cat" value="Business"> Business</label><br>
+            <label><input type="checkbox" class="cat" value="Dance"> Dance</label><br>
+            <label><input type="checkbox" class="cat" value="Exhibition"> Exhibitions</label><br>
+            <label><input type="checkbox" class="cat" value="Food"> Food & Drink</label><br>
+            <label><input type="checkbox" class="cat" value="Fundraising"> Fundraising</label><br>
+            <label><input type="checkbox" class="cat" value="Product"> Product Launch</label><br>
+            <label><input type="checkbox" class="cat" value="Sports"> Sports</label><br>
+
+            
+
+
+            <button id="applyFilters" class="apply-btn">Apply Filters</button>
+        </aside>
+
+        <!-- EVENTS -->
+        <section id="eventsContainer" class="events-grid"></section>
+
+    </div>
+
+</main>
+
+<footer class="footer">
+    <p>&copy; 2025 EventQueue. All rights reserved.</p>
+</footer>
+
+<script src="findevents2.js"></script>
+</body>
+</html>
